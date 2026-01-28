@@ -34,16 +34,9 @@ Samuel Bernardino's Portfolio
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        #Experience ul {
-            padding: 0;
-        }
+      
 
-        #Experience li {
-            background-color: aliceblue;
-            padding: 8px;
-            border-radius: 12px;
-            border: 1px solid;
-        }
+       
     </style>
 
 <meta charset="UTF-8">
@@ -53,7 +46,19 @@ Samuel Bernardino's Portfolio
 
 <body>
     
-<h1> Samuel</h1>
+<header>
+    <h1>Samuel Bernardino's Porfolio</h1>
+        <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Connect">Connect</a></li>
+            
+        </ul>
+        </nav>
+</header>
     <section id="About">
     <h2> About</h2>
         <p> My name is Samuel, I am 19 years old, and was born in Brazil.
@@ -64,14 +69,39 @@ Samuel Bernardino's Portfolio
         </section>
 <section id="Experience">
 <h2> Experience</h2>
-<ul>
-    <li>Ap Computer Science in High School (Java)</li>
-    <li>A little bit of knowledge in python</li>
-    <li>Code the Dream (not yet completed)</li>
+<ul class="experience-ul">
+    <li class="experience-li">
+        <div class="experience-row">
+            <h3>Ap Computer Science (Java)</h3>
+            <h3 class="date">2023 – 2024</h3>
+        </div>
+        <p>Learned programming fundamentals, problem-solving, and algorithmic thinking with Java</p>
+    </li>
+    <li class="experience-li">
+        <div class="experience-row">
+            <h3>Minimal Knowledge in Python</h3>
+            <h3 class="date">2022 – 2023</h3>
+        </div>
+        <p>Learned python fundamentals in a cybersecurity high school class</p>
+    </li>
+    <li class="experience-li">
+        <div class="experience-row">
+            <h3>Code the Dream (Ongoing)</h3>
+            <h3 class="date">2025 – 2026</h3>
+        </div>
+        <p>Learning JavaScript, HTML, CSS, and website software development </p>
+    </li>
 </ul>
+</section>
+<h2 id="Skills">Skills</h2>  
+<h2 id="Projects">Projects</h2>
+        <ul></ul>
+<section id="Connect">
     <h2>Connect</h2>
+    <div class="connect-a">
     <a href="https://github.com/Samuca32413">GitHub</a>
     <a href="https://www.linkedin.com/in/samuel-bernardino-a44a2938b/">LinkedIn </a> <!--(this profile is yet to be finished, it is very incomplete)-->
+    </div>
 </section>
 </body>
 
