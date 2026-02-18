@@ -1,0 +1,83 @@
+/* Mobile- */
+
+.experience-ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.experience-li {
+    display: flex;
+    flex-direction: column;
+    border: 0.25rem solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+}
+.experience-row {
+    display: flex;
+    justify-content: space-between;
+    color: bisque;
+    margin: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+}
+.experience-li p {
+    margin-top: .3rem;
+    text-align: center;
+    color: antiquewhite;
+    font-size: .9rem;
+}
+.connect-a {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: .6rem;
+    flex-direction: column;
+}
+#Connect {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Tablet Style- */  /* minimum width = 768px (48rem)*/
+
+@media (min-width: 48rem) {
+    .experience-li {
+    padding: 1.25rem;
+    background-color: #222;
+    }
+    .experience-row {
+        font-size: 1rem;
+        color: lightblue;
+    }
+
+    .connect-a {
+    flex-direction: row;
+    color: lightgray;
+    }
+    #Connect {
+        font-size: 1.4rem;
+        color: lightgray;
+    }
+
+}
+
+/* Desktop- */ /* minwidth 64rem */
+
+@media (min-width: 64rem) {
+    .experience-ul {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .experience-li {
+    padding: 1.9rem;
+    border-radius: 1rem;
+    }
+    .experience-row {
+        font-size: 1.1rem;
+        letter-spacing: .06rem;
+    }
+    #Connect {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+}
