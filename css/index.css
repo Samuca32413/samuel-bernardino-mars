@@ -1,3 +1,26 @@
+footer {
+    background: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Skill Section Style */
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding:0;
+}
+
+#skills li {
+    background-color: lightgray;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+}
+
 /* Mobile- */
 
 .experience-ul {
@@ -81,3 +104,5 @@
         font-weight: bold;
     }
 }
+
+
