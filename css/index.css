@@ -1,8 +1,20 @@
-footer {
-    background: black;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+/* Message Form */
+
+#leave-message form {
+    display:flex;
+    flex-direction: column;
+    gap: .6 rem;
+    max-width: 400px
+}
+
+#leave-message input, #leave-message textarea {
+    padding: .4rem;
+    border-radius: 4px;
+}
+
+#leave-message button {
+    width: fit-content;
+    padding: .4rem .8rem;
 }
 
 /* Skill Section Style */
