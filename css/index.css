@@ -1,3 +1,19 @@
+/*Projects*/
+
+#projects ul {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    background-color: lightcyan;
+    padding: .5 rem 1rem;
+    border-radius: 4px;
+}
+
 /* Message Form */
 
 #leave-message form {
